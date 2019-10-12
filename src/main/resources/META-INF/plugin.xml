@@ -1,0 +1,39 @@
+<idea-plugin version="2">
+    <id>com.jollycorp.plugin.autocode</id>
+    <name>AutoCode</name>
+    <version>1.0</version>
+    <vendor email="coffee.zhu@jollycorp.com" url="http://www..jollycorp.com">jollycorp</vendor>
+
+    <description>mvp 模板代码自动生成 支持FragmentXXX,FragmentDialogXXX,ActivityXXX,ContractXXX,PresenterXXX</description>
+
+    <change-notes>
+        1.支持FragmentXXX
+        2.FragmentDialogXXX
+        2.ActivityXXX
+        2.ContractXXX
+        2.PresenterXXX
+    </change-notes>
+
+    <!-- 支持kotlin模板 -->
+    <depends>org.jetbrains.kotlin</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <inspectionToolProvider implementation="com.jollycorp.plugin.autocode.AutoCodeInspectionProvider"/>
+        <applicationService serviceImplementation="com.jollycorp.plugin.autocode.config.AutoCodeConfig"/>
+    </extensions>
+
+    <application-components>
+    </application-components>
+
+    <project-components>
+    </project-components>
+
+    <actions>
+        <action id="AutoCode.SettingAction" class="com.jollycorp.plugin.autocode.action.AutoCodeSettingAction"
+                text="Auto Code Setting"
+                description="AutoCode设置">
+            <add-to-group group-id="CodeMenu" anchor="last"/>
+        </action>
+    </actions>
+
+</idea-plugin>
