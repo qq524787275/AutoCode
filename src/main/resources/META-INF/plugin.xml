@@ -4,15 +4,28 @@
     <version>1.0</version>
     <vendor email="coffee.zhu@jollycorp.com" url="http://www..jollycorp.com">jollycorp</vendor>
 
-    <description>mvp 模板代码自动生成 支持FragmentXXX,FragmentDialogXXX,ActivityXXX,ContractXXX,PresenterXXX</description>
+    <description><![CDATA[
+        mvp 模板代码自动生成 支持FragmentXXX,FragmentDialogXXX,ActivityXXX,ContractXXX,PresenterXXX.
+    ]]></description>
 
-    <change-notes>
-        1.支持FragmentXXX
-        2.FragmentDialogXXX
-        2.ActivityXXX
-        2.ContractXXX
-        2.PresenterXXX
-    </change-notes>
+    <change-notes><![CDATA[
+        <p>1.0</p>
+        <ul>
+            <li>支持FragmentXXX</li>
+            <li>支持FragmentDialogXXX</li>
+            <li>支持ActivityXXX</li>
+            <li>支持ContractXXX</li>
+            <li>支持PresenterXXX</li>
+        </ul>
+        <p>1.0.1</p>
+        <ul>
+            <li>Fix the problem with Kotlin plugin 1.0.3</li>
+        </ul>
+        <p>1.0.0</p>
+        <ul>
+            <li>Initial release</li>
+        </ul>
+    ]]></change-notes>
 
     <idea-version since-build="143.2370.31"/>
     <!-- 支持kotlin模板 -->
