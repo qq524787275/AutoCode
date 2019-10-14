@@ -25,7 +25,7 @@ intellij {
     sameSinceUntilBuild = false
 }
 
-group 'com.jollycorp.plugin.autocode'
+group 'com.zhuzichu.plugin.autocode'
 version '1.0'
 
 repositories {
