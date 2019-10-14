@@ -1,4 +1,4 @@
-package com.jollycorp.plugin.autocode.config
+package com.zhuzichu.plugin.autocode.config
 
 import com.intellij.openapi.components.ServiceManager
 

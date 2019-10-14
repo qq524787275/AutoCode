@@ -1,4 +1,4 @@
-package com.jollycorp.plugin.autocode
+package com.zhuzichu.plugin.autocode
 
 interface IAutoCode {
 

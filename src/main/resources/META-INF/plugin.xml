@@ -1,11 +1,11 @@
 <idea-plugin version="2">
-    <id>com.jollycorp.plugin.autocode</id>
+    <id>com.zhuzichu.plugin.autocode</id>
     <name>AutoCode</name>
     <version>1.0</version>
-    <vendor email="coffee.zhu@jollycorp.com" url="http://www..jollycorp.com">jollycorp</vendor>
+    <vendor email="zhuzichu520@gmail.com" url="http://www.zhuzichu.com">zzc</vendor>
 
     <description><![CDATA[
-        mvp 模板代码自动生成 支持FragmentXXX,FragmentDialogXXX,ActivityXXX,ContractXXX,PresenterXXX.
+        <p>mvp 模板代码自动生成 支持FragmentXXX,FragmentDialogXXX,ActivityXXX,ContractXXX,PresenterXXX.</p>
     ]]></description>
 
     <change-notes><![CDATA[
@@ -17,14 +17,6 @@
             <li>支持ContractXXX</li>
             <li>支持PresenterXXX</li>
         </ul>
-        <p>1.0.1</p>
-        <ul>
-            <li>Fix the problem with Kotlin plugin 1.0.3</li>
-        </ul>
-        <p>1.0.0</p>
-        <ul>
-            <li>Initial release</li>
-        </ul>
     ]]></change-notes>
 
     <idea-version since-build="143.2370.31"/>
@@ -32,8 +24,8 @@
     <depends>org.jetbrains.kotlin</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <inspectionToolProvider implementation="com.jollycorp.plugin.autocode.AutoCodeInspectionProvider"/>
-        <applicationService serviceImplementation="com.jollycorp.plugin.autocode.config.AutoCodeConfig"/>
+        <inspectionToolProvider implementation="com.zhuzichu.plugin.autocode.AutoCodeInspectionProvider"/>
+        <applicationService serviceImplementation="com.zhuzichu.plugin.autocode.config.AutoCodeConfig"/>
     </extensions>
 
     <application-components>
@@ -43,7 +35,7 @@
     </project-components>
 
     <actions>
-        <action id="AutoCode.SettingAction" class="com.jollycorp.plugin.autocode.action.AutoCodeSettingAction"
+        <action id="AutoCode.SettingAction" class="com.zhuzichu.plugin.autocode.action.AutoCodeSettingAction"
                 text="Auto Code Setting"
                 description="AutoCode设置">
             <add-to-group group-id="CodeMenu" anchor="last"/>

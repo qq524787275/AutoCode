@@ -1,4 +1,4 @@
-package com.jollycorp.plugin.autocode.inspection
+package com.zhuzichu.plugin.autocode.inspection
 
 import com.intellij.codeInspection.LocalInspectionToolSession
 import com.intellij.codeInspection.LocalQuickFix
@@ -7,13 +7,12 @@ import com.intellij.codeInspection.ProblemsHolder
 import com.intellij.openapi.project.Project
 import com.intellij.psi.PsiElement
 import com.intellij.psi.PsiElementVisitor
-import com.jollycorp.plugin.autocode.AutoCodeDelegate
-import com.jollycorp.plugin.autocode.IAutoCode
+import com.zhuzichu.plugin.autocode.AutoCodeDelegate
+import com.zhuzichu.plugin.autocode.IAutoCode
 import org.jetbrains.kotlin.psi.KtClass
 import org.jetbrains.kotlin.psi.KtPsiFactory
 import org.jetbrains.kotlin.psi.KtVisitorVoid
 import org.jetbrains.kotlin.psi.psiUtil.createSmartPointer
-import javax.swing.JComponent
 
 class AutoCodeFragmentDailogInspection : BaseAutoCodeInspection(), IAutoCode {
 
@@ -51,10 +50,6 @@ class AutoCodeFragmentDailogInspection : BaseAutoCodeInspection(), IAutoCode {
             val klass = descriptor.psiElement.parent as KtClass
             autoCodeDelegate.createCode(factory, klass, getType())
         }
-    }
-
-    override fun createOptionsPanel(): JComponent? {
-        return super.createOptionsPanel()
     }
 
 }

@@ -1,8 +1,8 @@
-package com.jollycorp.plugin.autocode
+package com.zhuzichu.plugin.autocode
 
 import com.intellij.psi.PsiElement
-import com.jollycorp.plugin.autocode.config.ConfigManager
-import com.jollycorp.plugin.autocode.ext.hump2Underline
+import com.zhuzichu.plugin.autocode.config.ConfigManager
+import com.zhuzichu.plugin.autocode.ext.hump2Underline
 import org.jetbrains.kotlin.idea.core.getOrCreateCompanionObject
 import org.jetbrains.kotlin.idea.util.application.runWriteAction
 import org.jetbrains.kotlin.psi.KtClass

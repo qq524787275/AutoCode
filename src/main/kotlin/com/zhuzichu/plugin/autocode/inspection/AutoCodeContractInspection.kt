@@ -1,4 +1,4 @@
-package com.jollycorp.plugin.autocode.inspection
+package com.zhuzichu.plugin.autocode.inspection
 
 import com.intellij.codeInspection.LocalInspectionToolSession
 import com.intellij.codeInspection.LocalQuickFix
@@ -7,7 +7,7 @@ import com.intellij.codeInspection.ProblemsHolder
 import com.intellij.openapi.project.Project
 import com.intellij.psi.PsiElement
 import com.intellij.psi.PsiElementVisitor
-import com.jollycorp.plugin.autocode.IAutoCode
+import com.zhuzichu.plugin.autocode.IAutoCode
 import org.jetbrains.kotlin.idea.util.application.runWriteAction
 import org.jetbrains.kotlin.psi.KtClass
 import org.jetbrains.kotlin.psi.KtPsiFactory

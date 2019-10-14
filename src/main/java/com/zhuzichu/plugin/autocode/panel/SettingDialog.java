@@ -1,6 +1,6 @@
-package com.jollycorp.plugin.autocode.panel;
+package com.zhuzichu.plugin.autocode.panel;
 
-import com.jollycorp.plugin.autocode.config.ConfigManager;
+import com.zhuzichu.plugin.autocode.config.ConfigManager;
 import org.apache.commons.lang.StringUtils;
 
 import javax.swing.*;

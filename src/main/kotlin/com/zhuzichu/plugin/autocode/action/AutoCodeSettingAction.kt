@@ -1,8 +1,8 @@
-package com.jollycorp.plugin.autocode.action
+package com.zhuzichu.plugin.autocode.action
 
 import com.intellij.openapi.actionSystem.AnAction
 import com.intellij.openapi.actionSystem.AnActionEvent
-import com.jollycorp.plugin.autocode.panel.SettingDialog
+import com.zhuzichu.plugin.autocode.panel.SettingDialog
 
 
 class AutoCodeSettingAction : AnAction() {

@@ -1,8 +1,8 @@
-package com.jollycorp.plugin.autocode
+package com.zhuzichu.plugin.autocode
 
 import com.google.common.collect.Lists
 import com.intellij.codeInspection.InspectionToolProvider
-import com.jollycorp.plugin.autocode.inspection.*
+import com.zhuzichu.plugin.autocode.inspection.*
 
 class AutoCodeInspectionProvider : InspectionToolProvider {
 

@@ -1,4 +1,4 @@
-package com.jollycorp.plugin.autocode.ext
+package com.zhuzichu.plugin.autocode.ext
 
 import java.util.regex.Pattern
 
