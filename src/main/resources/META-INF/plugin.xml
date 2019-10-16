@@ -5,17 +5,17 @@
     <vendor email="zhuzichu520@gmail.com" url="http://www.zhuzichu.com">zzc</vendor>
 
     <description><![CDATA[
-        <p>mvp 模板代码自动生成 支持FragmentXXX,FragmentDialogXXX,ActivityXXX,ContractXXX,PresenterXXX.</p>
+        <p>Mvp template code is automatically generated to support FragmentXXX, FragmentDialogXXX, ActivityXXX, ContractXXX, PresenterXXX,etc.</p>
     ]]></description>
 
     <change-notes><![CDATA[
         <p>1.0</p>
         <ul>
-            <li>支持FragmentXXX</li>
-            <li>支持FragmentDialogXXX</li>
-            <li>支持ActivityXXX</li>
-            <li>支持ContractXXX</li>
-            <li>支持PresenterXXX</li>
+            <li>Support FragmentXXX</li>
+            <li>Support FragmentDialogXXX</li>
+            <li>Support ActivityXXX</li>
+            <li>Support ContractXXX</li>
+            <li>Support PresenterXXX</li>
         </ul>
     ]]></change-notes>
 
